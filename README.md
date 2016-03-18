@@ -13,3 +13,9 @@ Example:
 
 Queries through your email and finds up to a maximum of 10 messages that contain "oscar" in the "from" data set contained in the message. Returns information about the emails it finds (is currently only displaying date, from, and subject). 
 
+Setup:
+The environment was setup using Googles API Quickstart Guide: 
+https://developers.google.com/gmail/api/quickstart/python#prerequisites
+
+Google APIs use the OAuth 2.0 protocol for authentication and authorization, so in the guide above you must set up OAuth2.0 with your project. It was very easy and straightforward for me as Google gives pretty good instructions in walking you through the setup. 
+
